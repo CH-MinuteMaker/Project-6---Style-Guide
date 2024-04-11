@@ -1,23 +1,96 @@
-/* Entire Sheet */
-
-/* Header */
+body {
+    background-color: rgba(254, 254, 254, 0.91);
+}
 
 /* Header elements */
 
 h1 {
-
+    background-color: rgba(49, 46, 46, 0.91);
+    color: rgba(255, 255, 255, 1);   
+    text-align: center;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 60px;
 }
 
-h2 {
-
+/*Navbar */
+nav {
+    display: inline;
 }
 
-h3 {
-    background-color: blue;
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 2px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px; /*setting this to the same as the height has veritcally aligned the li elements correctly */
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Section Headings */
 
 /* Sections */
+
+/* Colours */
+
+.colorbox {
+    font-weight: 900;
+    color: orange;
+}
+
+#darkgrey {
+    background-color: #312e2ee8;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+#coolblue {
+    background-color: #1e4c75e8;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+#skyblue {
+    background-color: #9acfffe8;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    margin: 20px;
+    line-height: 1.5;
+    color: #000;
+}
 
 /* Footer */
