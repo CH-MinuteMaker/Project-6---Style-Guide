@@ -1,19 +1,32 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./Fonts/Roboto/Roboto-Regular.ttf) format('truetype'),
+         url(./Fonts/Roboto/Roboto-LightItalic.ttf) format('truetype'),
+         url(./Fonts/Roboto/Roboto-Bold.ttf);
+}
+
 body {
     background-color: rgba(254, 254, 254, 0.91);
-    margin: 0 10%;;
+    margin: 0 10%;
+    font-family: 'Roboto';
 }
 
 /* Header elements */
 
 h1 {
-    background-color: rgba(49, 46, 46, 0.91);
-    color: rgba(255, 255, 255, 1);   
+    background-color: #312e2ee8;
+    color: #fffdfd;   
     text-align: center;
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 10px;
     width: 100%;
     font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    background-color: red;
 }
 
 h3 {
@@ -54,14 +67,16 @@ nav a:hover {
 
 /* Sections */
 
-.section {
-    border: 1px solid black;
+section {
+    border: 2px solid #0B5987;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0px;
 }
 
 /* Colours */
 
 .colour {
-    background-color: red;
     width: 100%;
     text-align: center;
 }
@@ -70,20 +85,64 @@ nav a:hover {
     font-weight: 900;
     width: 100px;
     height: 100px;
-    margin-right: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
     display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    box-shadow: 5px 5px 1-px 2px #000;
+}
+
+.colorbox:hover {
+    position: relative;
+    top: 2px;
+    left: 2px;
 }
 
 #darkgrey {
     background-color: #312e2ee8;
+    color: #fff;
+    box-shadow: 5px 5px 10px #000;
 }
 
 #coolblue {
     background-color: #1e4c75e8;
+    color: #fff;
+    box-shadow: 5px 5px 10px #000;
+
 }
 
 #skyblue {
     background-color: #9acfffe8;
+    box-shadow: 5px 5px 10px #000;
+
+}
+
+#deepseagreen {
+    background-color: #0B5987;
+    color: #fff;
+    box-shadow: 5px 5px 10px #000;
+
+}
+
+
+/* Fonts */
+
+.font p, h4 {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.roboto > .regular {
+    font-weight: normal;
+}
+
+.roboto > .italic {
+    font-style: italic;
+}
+
+.roboto > .bold {
+    font-weight: bold;    
 }
 
 /* Footer */
