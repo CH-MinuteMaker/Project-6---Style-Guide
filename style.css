@@ -5,6 +5,20 @@
          url(./Fonts/Roboto/Roboto-Bold.ttf);
 }
 
+@font-face {
+    font-family: "Raleway";
+    src: url(./Fonts/Raleway/static/Raleway-Regular.ttf) format('truetype'),
+         url(./Fonts/Raleway/static/Raleway-Bold.ttf) format('truetype'),
+         url(./Fonts/Raleway/static/Raleway-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(./Fonts/Oswald/static/Oswald-Regular.ttf) format('truetype'),
+         url(./Fonts/Oswald/static/Oswald-Bold.ttf) format('truetype');
+}
+
+
 body {
     background-color: rgba(254, 254, 254, 0.91);
     margin: 0 10%;
@@ -37,6 +51,10 @@ h2 {
 
 h3 {
     text-align: center;
+}
+
+p {
+    padding-left: 10px;
 }
 
 /*Navbar */
@@ -137,21 +155,59 @@ section {
 
 /* Fonts */
 
+.font-block {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
 .font p, h4 {
     padding-left: 10px;
     font-size: 20px;
 }
 
-.roboto > .regular {
+.roboto .regular {
     font-weight: normal;
 }
 
-.roboto > .italic {
+.roboto .italic {
     font-style: italic;
 }
 
-.roboto > .bold {
+.roboto .bold {
     font-weight: bold;    
+}
+
+.raleway {
+    font-family: 'Raleway';
+}
+
+.raleway .regular {
+    font-weight: normal;
+}
+
+.raleway .italic {
+    font-style: italic;
+}
+
+.raleway .bold {
+    font-weight: bold;
+}
+
+.oswald {
+    font-family: 'Oswald';
+}
+
+.oswald .regular {
+    font-weight: normal;
+}
+
+.oswald .italic {
+    font-style: italic;
+}
+
+.oswald .bold {
+    font-weight: bold;
 }
 
 /* Footer */
