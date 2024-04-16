@@ -40,21 +40,33 @@ h1 {
     margin-bottom: 10px;
     width: 100%;
     font-size: 60px;
+    padding: 15px 0px;
+    font-weight: 900;
 }
 
 h2 {
     text-align: center;
-    background-color: #9acfffe8;
+    color: #fff;
+    background-color: #312e2ee8;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    border: 2px solid #0B5987;
     border-radius: 5px;
+    outline: 2px solid #000;
+    outline-offset: 2px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 900;
   }
 
 h3 {
     text-align: center;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 /*Navbar */
@@ -80,16 +92,34 @@ nav ul li {
 
 nav a {
     text-decoration: none;
+    padding: 5px;
+    outline: 2px solid #000;
+    outline-offset: 2px;
+    border-radius: 5px;
 }
 
-nav a:hover {
+/* Links */
+
+a:link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #312e2ee8;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-/* Section Headings */
-
-
+a:active {
+    background-color: #9acfffe8;
+    color: #000;
+}
 
 /* Sections */
 
@@ -124,6 +154,11 @@ section {
     position: relative;
     top: 2px;
     left: 2px;
+}
+
+.colorbox p {
+    margin-top: 0px;
+    font-size: 18px;
 }
 
 #darkgrey {
@@ -161,7 +196,7 @@ section {
     margin-right: 5%;
 }
 
-.font p, h4 {
+ h4 {
     padding-left: 10px;
     font-size: 20px;
 }
@@ -210,4 +245,22 @@ section {
     font-weight: bold;
 }
 
+/* Text Styles */
+
+.textstyle-header {
+    font-size: 20px;
+    color: #fff;
+    background-color: #312e2ee8;
+    width: 20%;
+    text-align: center;
+}
+
 /* Footer */
+
+footer {
+    color: #fff;
+    background-color: #312e2ee8;
+    padding: 1px;
+    margin-top: -5px;
+    border-radius: 5px;
+}
